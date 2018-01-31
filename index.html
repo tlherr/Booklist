@@ -7,32 +7,26 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Fixed top navbar example for Bootstrap</title>
+    <title>Thomas Herr Booklist</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="navbar-top-fixed.css" rel="stylesheet">
   </head>
 
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <a class="navbar-brand" href="http://booklist.tlherr.com">Booklist</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://tlherr.com">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Add New</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
@@ -43,10 +37,54 @@
     </nav>
 
     <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
-        <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
+      <div class="col-md-12">
+        <h1>Booklist</h1>
+        <hr>
+        <h2>2018</h2>
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">ISBN</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Thoughts</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">What Happened</th>
+            <td>Hillary Clinton</td>
+            <td>978-1-5011-7556-5</td>
+            <td>3/5</td>
+            <td>Well written from someone in a unique situation, lots of insight into personal life of Hillary Clinton
+              and self help strategies to cope with such a loss.</td>
+          </tr>
+          <tr>
+            <th scope="row">Going Clear: Scientology Hollywood & the Prison of Belief</th>
+            <td>Lawerence Wright</td>
+            <td>978-0-3077-0066-7</td>
+            <td>4/5</td>
+            <td>Fascinating look into history and evolution of this cult, highly recommend</td>
+          </tr>
+          <tr>
+            <th scope="row">The Andromeda Strain</th>
+            <td>Michael Crichton</td>
+            <td>0-394-41525-6</td>
+            <td>2.5/5</td>
+            <td>Entertaining but terrible ending</td>
+          </tr>
+          <tr>
+            <th scope="row">The Emperors Revenge</th>
+            <td>Clive Custler</td>
+            <td>9780735215368</td>
+            <td>3/5</td>
+            <td>These books are guilty pleasure, can knock one out in an afternoon. Highly entertaining</td>
+          </tr>
+          </tbody>
+        </table>
+
+
       </div>
     </main>
 
